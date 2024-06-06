@@ -1,0 +1,1801 @@
+{
+	"coverage": 100.0,
+	"hints": {
+		"0": "Pre väčšinu fariem platí, že veľkosť = výnos. Zberači bobúľ sú však výnimkou.",
+		"1": "Více a odlišnějších monster se bude objevovat s rostoucí úrovní hrozby.",
+		"10": "3x33 je nejlepší velikost pro uzemí lesníka.",
+		"16": "Použij kompas, aby jsi našel kolonie a outposty.",
+		"17": "Použij astrolabu, aby jsi našel další biomy se specialnímy itemy.",
+		"18": "Postav Posvátný Failsafe, aby jsi použil svoje Posvátné Peníze kdzž je tvoje kolonie v nesnázích.",
+		"19": "Postav Posvátný Sklad aby jsi mohl uskladnit více Posvátných Peněz.",
+		"2": "V podzemí můžeš najít kámení, obsahující určitou rudu. Čím hlouběji se dostaneš, tím vzácnější rudy najdeš.",
+		"20": "Použij červenou, zelenou nebo modrou barvou, aby jsi přemaloval dveře, nebo zábradlí.",
+		"21": "Použij Odstraňovač nátěrů, aby jsi smazal barvy z itemů.",
+		"22": "Kolonisti nemůžeou používat výtahy.",
+		"23": "Postav Koleje, a Stanice pro rychlou cestu od A do B.",
+		"24": "Použij Bránu Kolejí, aby jsi zastavil zombíky, bez toho aniž by jsi zastavil Vlaky.",
+		"25": "Postav Statistickou Nástěnku, aby jsi dostal lepší statistiky o tvojí kolonii.",
+		"26": "Postav Archimédův šroub, aby jsi vysál blízkou vodu.",
+		"27": "Píšeme skoro každý týden Páteční Blog (Friday Blog) na Steamu!",
+		"28": "Existujou módy pro Colony Survival, můžeš je najít na Workshopu v Steamu, nebo na našem Discordu!",
+		"29": "_MISSING_Crouching prevents falling off edges.",
+		"30": "_MISSING_Press <style=Player/ToggleTorch> to activate your torch.",
+		"4": "Klikni na blok kde se vyrábí předměty, s pravým tlačítkem na myšce , a uprav jejich množství nebo prioritu.",
+		"7": "Každá zbraň má svůj vlastní dolet, sílu a rychlost přebití, díky čemuž je každý strážce unikátní."
+	},
+	"sentences": {
+		"astrolabe": {
+			"bigtree": "Mamutí strom",
+			"heath": "Vřesoviště",
+			"marsh": "Bažina",
+			"mountain": "Hora"
+		},
+		"bannerclickedpopup": {
+			"deletebanner": "Zničit prapor",
+			"deletecolony": "Smazat kolonii",
+			"deletecolonydescription": "Zničením posledního založeného praporu ztratíš všechny své kolonisty a kolonie již nebude použitelná. Pro potvrzení napiš 'delete' do pole níže.",
+			"header": "Možnosti praporu",
+			"noconfirmationdelete": "Pokus o smazání kolonie byl neúspěšný, nenapsal jsi požadované slovo.",
+			"placementfail": "Na toto místo nemůžeš umístit svůj prapor kolonie."
+		},
+		"bannerplacementpopup": {
+			"activecolony": "Aktivní kolonie: {0}",
+			"addbanner": "Přidat prapor",
+			"header": "Položení praporu",
+			"missingcolonykit": "Vyžaduje balíček na založení kolonie",
+			"missingoutpostbanner": "Vyžaduje prapor outpostu.",
+			"movebanner": "Přesunout prapor sem",
+			"mustbeleader": "Musíš být vůdcem kolonie, abys mohl přesunout prapor.",
+			"opencolonytab": "Spravovat {0}",
+			"startcolony": "Založit novou kolonii",
+			"startoutpost": "Založit nový outpost",
+			"startoutpostremote": "Založit novou základnu"
+		},
+		"category": {
+			"consumables": "Spotřební",
+			"decorative": "Dekorativní bloky",
+			"defense": "Obrana",
+			"essential": "Potřeba",
+			"food": "Jídlo",
+			"ingredient": "Přísady a vymoženosti",
+			"job": "Pracovní bloky",
+			"misc": "Jíné",
+			"texres": "Textilie a výzkum"
+		},
+		"chat": {
+			"colonydied": "Všichni kolonisté v {0} zemřeli.",
+			"playerdied": "Hráč {0} zemřel."
+		},
+		"colonymanagement": {
+			"colonysettings": {
+				"difficulty": "Obtížnost",
+				"difficulty_peaceful": "_MISSING_Peaceful",
+				"difficultylocked": "Uzamknout obtížnost",
+				"header": "Nastavení kolonie"
+			},
+			"diplomacy": {
+				"mainbutton": "Diplomacie",
+				"mainheader": "Diplomacie",
+				"ruleaccept": "Přijmout",
+				"ruleactive": "Aktivní",
+				"ruleedit": "Upravit",
+				"rulepending": "Čekající",
+				"ruleremove": "Odmítnout"
+			},
+			"inventoryheader": "Manažer kolonie",
+			"manageheader": "Vlastnictví",
+			"managejobs": {
+				"column_enabled": "Najatý",
+				"column_jobtype": "Pracovní pozice",
+				"column_total": "Celkem najatých",
+				"column_unfilled": "Dostupné",
+				"disable_all": "Vyhodit všechny",
+				"enable_all": "Najmout všechny",
+				"header_text": "<b>{0}</b> kolonistů je bez práce. Je <b>{1} / {2}</b> pracovních pozicích. Přidělené pracovní pozice: <b>{3} / {1}</b>",
+				"mainheader": "Pracovní pozice",
+				"refresh": "Obnovit",
+				"set_balanced": "Vyrovnat"
+			},
+			"manageowners": "Nastavit vlastnictví",
+			"nameedit": "Název kolonie",
+			"outpost": {
+				"create": "Založit outpost",
+				"createdescription": "Založení outpostu spotřebuje speciální zelený prapor z tvého inventáře nebo zásob kolonie.",
+				"parentcolony": "Hlavní kolonie je",
+				"popupheader": "Vytvoření outpostu",
+				"selectparent": "Zvolit hlavní kolonií"
+			},
+			"ownership": {
+				"action": "Akce",
+				"connectedplayers": "Připojení hráči",
+				"currentowners": "Aktuální vlastníci",
+				"follower": "Následovník",
+				"invite": "Přidat vlastníka kolonie",
+				"kick": "Vyhodit",
+				"leader": "Vůdce",
+				"leave": "Opustit kolonii",
+				"name": "Jméno",
+				"role": "Role",
+				"settoleader": "Povýšit na vůdce"
+			},
+			"recruit": "Rekruitovat",
+			"recruitauto": "Automatické rekruitování při založení nové pracovní pozice",
+			"recruitfailedbeds": "<color=red>Nelze rekruitovat dalšího kolonistu - nedostatek volných postelí.</color>",
+			"recruitfailedcap": "<color=red>Nelze rekruitovat dalšího kolonistu - dosažena maximální kapacita.</color>",
+			"recruitfailednomeals": "<color=red>Nelze rekruitovat dalšího kolonistu - nedostatek jídla na skladě.</color>",
+			"recruitmentamount": "Počet kolonistů k rekruitování",
+			"recruitmentbutton": "Rekruitovat kolonistu",
+			"recruitmentheader": "Rekruitování",
+			"recruittext3": "Kolonisté konzumují jedno jídlo denně a potřebují volnou postel.",
+			"recruittext4-2": "Rekruitování další/ho kolonisty/u stojí {0} jídla.",
+			"recruittext5-2": "Je {0} volných postelí a můžeš rekrutovat {1} dalších/ho kolonistů/u před dosažením maximální kapacity.",
+			"recruittext6": "Rekrutování příštích/ho {0} kolonistů/u je zdarma.",
+			"recruittofillbeds": "Rekruitovat na všechny postele",
+			"recruittofilljobs": "Rekruitovat na všechny pracovní pozice",
+			"resetcolonypriority2": "Obnovit aktivní kolonii",
+			"science": {
+				"incomingdescription2": "Budou s vámi sdílet jejich výzkum",
+				"newagreement": "Nabídnout sdílení výzkumu",
+				"outgoingdescription2": "Sdílet výzkum",
+				"selectcolony": "Vyber s jakou kolonií chcete výzkum sdílet:"
+			},
+			"selectcolony": {
+				"currentcolony": "Aktuální kolonie je {0}",
+				"headercolonists": "Kolonisté",
+				"headercolony": "Kolonie",
+				"headerleader": "Vůdce/i",
+				"headerselect": "Výběr",
+				"nocolonies": "Žádné kolonie na seznamu.",
+				"nocoloniesowned": "Žádní vlastníci na seznamu",
+				"nocoloniesthird": "Žádné jiné kolonie na seznamu",
+				"othercolonies": "Ostatní kolonie",
+				"select": "Vybrat"
+			},
+			"start": {
+				"create": "Vytvořit kolonii",
+				"defaultkit": "Toto je poprvé, kdy jsi použil balíček na založení kolonie.",
+				"kits": "Dostupné balíčky",
+				"missingkit": "Je vyžadován balíček na založení kolonie.",
+				"name": "Jméno kolonie",
+				"parentcolony": "Hlavní kolonie",
+				"popupheader": "Založení kolonie",
+				"usescienceagreement": "Přesunout výzkum"
+			},
+			"startsettings": "Nastavení kolonie",
+			"switchcolony2": "Změnit aktivní kolonii na:",
+			"trading": {
+				"completerule": "Vytvořit obchodní požadavek",
+				"completeruleedit": "Změna pravidel",
+				"mainheader": "Nastavení nového obchodního požadavku",
+				"newruleinfinite": "Nové neomezené obchodní pravidla",
+				"newrulelimited": "Nové limitované obchodní pravidlo",
+				"ruledescription": "Obchodníci vyobchodují {0} z {1} do {2} pokud obě kolonie:",
+				"ruledescriptionlimit": "Zbývá vyobchodovat {0} předmětů.",
+				"ruleincomingdescr2": "Dostanete {0} když mají víc než {1} a my máme méně než {2}.",
+				"rulemaximumgoal": "{0} má méně než: ",
+				"rulemaximumtraded": "Tato nabídka pošle tento počet určených předmětů: ",
+				"ruleminimumthis": "{0} má více než: ",
+				"ruleoutgoingdescr2": "Pošlete {0} když máme víc než {1} a oni mají méně než {2}.",
+				"selectcolony": "Vyber kolonii, kam chcete poslat požadavek"
+			}
+		},
+		"commands": {
+			"disableachievements": "Achievmenty byly na tomto světě vypnuty, nyní můžete využívat podváděcí možnosti (cheaty).",
+			"disableachievementsfirst": "Abys tak mohl učinit, musíš nejdříve na tomto světě vypnout achievmenty použitím příkazu '/disableachievements'",
+			"nopermission": "Nemáš povolení '{0}', abys tak mohl konat."
+		},
+		"connectingscreen": {
+			"loading": "Načítání",
+			"localhost_fail": "Nenalezen žádný singleplayer/Steam server. Návrat do menu za 5 vteřin ...",
+			"refused": {
+				"blacklisted": "Jsi na černé listině, takže se nemůžeš připojit.",
+				"incompatible": "Server zažívá neočekávaný problém.",
+				"invalidpassword": "Nesprávné heslo.",
+				"invalidticket": "Neplatný Steam Ticket.",
+				"maxplayer": "Server je plný.",
+				"misc": "Neznámá chyba.",
+				"notonwhitelist": "Nejsi na bílé listině.",
+				"versionwrongclient": "Verze se neshoduje s verzí klienta hry.",
+				"versionwrongserver": "Verze se neshoduje s verzí serveru."
+			},
+			"refused_main": "Připojení zamítnuto, {0}. Návrat do menu za 5 vteřin...",
+			"sp_alreadyrunning2": "Server již běží. Návrat do menu za 5 vteřin ...",
+			"stages": {
+				"1": "Požadovaná tabulka souborů serveru",
+				"connectionmade": "Spojení provedeno",
+				"downloading": "(Stahování {0} balíčků)",
+				"fail": "Načítání se nezdařilo, návrat do menu za 5 sekund",
+				"final": "Dokončování",
+				"loading": "Načítání {0} souborů",
+				"local1": "Hledání serveru pro jednoho hráče na tomto počítači",
+				"local2": "Hledání online serveru na tomto počítači",
+				"password": "Je vyžadováno heslo",
+				"steamdirect": "Pokus o nastavení přímého připojení",
+				"steamp2p": "Pokus o nastavení p2p připojení",
+				"timeout": "Připojování vypršelo. Návrat do hlavního menu za 5 sekund",
+				"waitingserver": "Spouštění serveru na pozadí"
+			}
+		},
+		"contentmanager": {
+			"buttonbrowseworkshop": "Procházet Workshop",
+			"buttoncreateitem": "Vytvořit kontent",
+			"buttoneditdetails": "Změnit detaily",
+			"buttonlistsubscribed": "Odebíraný kontent",
+			"buttonsubmitcontent": "Potvrdit",
+			"buttonupdatecontent": "Aktualizovat kontent",
+			"changelogplaceholder": "Sem zadej seznam změn...",
+			"contenteditheader": "Nastavení/aktualizace kontentu pro {0}",
+			"contentpath": "Cesta ke kontentu: {0}",
+			"contenttypelabel": "Typ kontentu",
+			"contenttypes": {
+				"itempack": "Balíček Itemů",
+				"misc": "Různé",
+				"overhaul": "Overhaul",
+				"texturepack": "Balíček Textur",
+				"unknown": "Neznámé",
+				"utilities": "Nástroje",
+				"world": "Svět"
+			},
+			"nocontentpath": "Zatím nebyla zvolena cesta",
+			"scenariolabel": "Název scénáře",
+			"statecommittingchanges": "Provádění změn: {0} / {1}",
+			"statepreparingconfig": "Připravování konfigurace: {0} / {1}",
+			"statepreparingcontent": "Připravování kontentu: {0} / {1}",
+			"stateuploadingcontent": "Nahrávání kontentu: {0} / {1}",
+			"stateuploadingpreview": "Nahrávání náhledu: {0} / {1}",
+			"thumbnailpath": "Stručná cesta:",
+			"yourcontent": "Tvůj vytvořený kontent ve workshopu"
+		},
+		"controls": {
+			"decreasefieldofview": "Zmenšit zorné pole (cheat)",
+			"fireprimary": "Primární akce",
+			"firesecondary": "Sekundární akce",
+			"flydown": "Let dolů (cheat)",
+			"holdcrouch": "Krčení (Držení)",
+			"hotbardown": "Další místo v hotbaru",
+			"hotbarup": "Předchozí místo v hotbaru",
+			"increasefieldofview": "Zvětšit zorné pole (cheat)",
+			"inventory0": "Hotbar 10",
+			"inventory1": "Hotbar 1",
+			"inventory2": "Hotbar 2",
+			"inventory3": "Hotbar 3",
+			"inventory4": "Hotbar 4",
+			"inventory5": "Hotbar 5",
+			"inventory6": "Hotbar 6",
+			"inventory7": "Hotbar 7",
+			"inventory8": "Hotbar 8",
+			"inventory9": "Hotbar 9",
+			"jump": "Skok",
+			"jumpgamepadtap": "Skok",
+			"look": "Míření",
+			"movekeyboard": {
+				"down": "Pohyb dozadu",
+				"left": "Pohyb doleva",
+				"right": "Pohyb doprava",
+				"up": "Pohyb dopředu"
+			},
+			"movepad": "Pohyb",
+			"opencolonytab": "Otevřít menu správce kolonie",
+			"openquickstart": "Rychle zapnout",
+			"placemultipleareas": "Postavit konstrukní arei za sebou",
+			"resetfieldofview": "Reset zorné pole (cheat)",
+			"rotateobjectleft": "Otočit doleva",
+			"rotateobjectright": "Otočit doprava",
+			"simspeed10x": "_MISSING_Simulation speed x10 (cheat)",
+			"simspeed3x": "_MISSING_Simulation speed x3 (cheat)",
+			"simspeednormal": "_MISSING_Simulation speed reset (cheat)",
+			"simspeedpause": "_MISSING_Simulation speed pause (cheat)",
+			"sprint": "Bežet",
+			"sprintgamepadheld": "Bežet",
+			"takescreenshot": "Udělat snímek obrazovky",
+			"toggleautofocus": "Přepnout automatické ostření (cheat)",
+			"togglechat": "Otevřít chat",
+			"togglecrouch": "Skrčit se (Držení)",
+			"toggledevconsole": "Otevřít Developerskou Konzoli (cheat)",
+			"toggledevmenu": "Otevřít nabídku vývojáře (Dev Menu, cheat)",
+			"toggleextrasmooth": "Přepnout vyhlazený cíl, Aim (cheat)",
+			"togglefly": "Přepnout létání (cheat)",
+			"togglefocuspoint": "Přepnout zamčený cíl, Aim (cheat)",
+			"toggleinterface": "Přepnout rozhraní",
+			"toggleinventory": "Otevřít inventář",
+			"togglestats": "Otevřít zobrazení statistik",
+			"toggletorch": "Zapnout/Vypnout pochodeň"
+		},
+		"escapemenu": {
+			"back": "Vrátit se do hry",
+			"info": "Informace",
+			"quitdesktop": "Odejít na plochu",
+			"quitmain": "Odejít do hlavního menu",
+			"settings": "Nastavení"
+		},
+		"failsafe": {
+			"current": "Aktuální zásoba posvátných bodů: {0} z {1}",
+			"damage": "Aktivace posvátné záchrany způsobí {0} poškození",
+			"futurewave": "Posvátná záchrana sníží počet životu monster následující noc o {0:P0}",
+			"header": "Posvátná záchrana",
+			"nextavailable": "Posvátná záchrana bude znovu dostupná následující noc",
+			"statusactive": "Stav: Posvátná záchrana je aktivní",
+			"statusavailable": "Stav: Posvátná záchrana je dostupná",
+			"trigger": "Aktivovat",
+			"wave": "Aktuální úroveň hrozby je {0} a budou se objevovat monstra až s {1} počtem životů",
+			"wavereduced": "Celkový možný počet životů monster bude snížen následující noc o {0:P0}"
+		},
+		"firstpersonstats": {
+			"ammocount": "Střelivo:",
+			"bedcount": "Postele:",
+			"colonistcount": "Kolonisté:",
+			"colonypoints": "Body kolonie:",
+			"laborercount": "Nezaměstnaní:",
+			"mealstorage": "Celkem jídla:",
+			"threatlevel": "Úroveň hrozby:",
+			"time_day": "Den"
+		},
+		"general": {
+			"apply": "Použít",
+			"back": "Zpět",
+			"close": "Zavřít",
+			"delete": "Smazat",
+			"description": "Popis",
+			"edit": "Změnit",
+			"enabled": "Povoleno",
+			"gamepadtextinputalphanumeric": "Jsou přijímána pouze číslice a písmena abecedy.",
+			"high": "Vysoký",
+			"inputplaceholder": "Zadej text...",
+			"inputplaceholder_search": "Zadej text pro hledání...",
+			"low": "Nízký",
+			"next": "Další",
+			"no": "Ne",
+			"none": "Žádný",
+			"normal": "Normální",
+			"previous": "Předchozí",
+			"randomize": "_MISSING_Randomize",
+			"reset": "Obnovit",
+			"select": "Zvolit",
+			"selected": "Zvoleno",
+			"veryhigh": "Velmi vysoký",
+			"yes": "Ano"
+		},
+		"happiness": {
+			"availablefood": "{0}% dostupnost pro {1}",
+			"availableluxury": "{0}% dostupnost pro {1}",
+			"baseamount": "Přítomnost krále",
+			"calories": "Příděl kalorií",
+			"calorieshappy": "Sytost",
+			"calorieshunger": "Hlad",
+			"caloriesstarvation": "Hladovění",
+			"colonistcount": "Zalidnění",
+			"disabledeffect": "Systém spokojenosti nebyl zapnut.",
+			"recruitmentcost": "Cena rekrutace: {0:P0} normální ceny",
+			"sciencespeed": "Rychlost výkumu: {0:P0} normální rychlosti",
+			"totalhappiness": "Celková spokojenost: {0}"
+		},
+		"infomenu": {
+			"changelog": "Seznam změn",
+			"credits": "Vytvořeno",
+			"quickstart": "Rychlý start"
+		},
+		"mainmenu": {
+			"back": "Zpět",
+			"contentmanager": "Módy",
+			"continue": "Pokračovat",
+			"coop": "Hostovat kooperační mód",
+			"info": "Informace",
+			"multiplayer": "Hra pro více hráčů",
+			"quit": "Odejít",
+			"settings": "Nastavení",
+			"singleplayer": "Hra pro jednoho hráče"
+		},
+		"multiplayermenu": {
+			"colonistcount": "Počet kolonistů",
+			"connectlocal": "Připojit k lokálnímu serveru",
+			"header_friends": "Přátelé",
+			"header_history": "Historie",
+			"header_internet": "Všechny servery",
+			"header_lan": "Místní síť",
+			"ipaddress": "IP adresa",
+			"join": "Připojit se",
+			"mods": "Módy",
+			"passworded": "Vyžadováno heslo",
+			"refresh2": "Obnovit",
+			"refreshing": "Obnovování...",
+			"refreshquick": "Rychlé obnovení",
+			"selectedserver": "Vybraný server",
+			"serverping": "Odezva",
+			"serverplayers": "Hráči",
+			"servers": "Servery",
+			"showempty": "Ukaž pouze prázdné",
+			"showfull": "Ukaž pouze plné",
+			"showincompatible": "Ukaž nekompatibilní",
+			"version": "Verze"
+		},
+		"notifications": {
+			"delete": "Smazat upozornění",
+			"header": "Upozornění",
+			"missingplayerammo": "<color=#ff2323>Použití {0} vyžaduje, aby v inventáři bylo {1}!</color>",
+			"npc_died": {
+				"banner": "byl zabit monstrem u praporu",
+				"command": "zemřel kvůli příkazu z příkazové řádky",
+				"excess": "{0} dalších kolonistů poté také zemřelo",
+				"individual": "{0}: Kolonista s pracovní pozicí {1} {2}.",
+				"main": "{0} kolonistů zemřelo na základně {1}!",
+				"misc": "zemřel z neznámého důvodu",
+				"monster": "byl zabit monstrem",
+				"npc": "byl zabit kolonistou",
+				"player": "byl zabit hráčem",
+				"starving": "vyhladověl",
+				"trap": "byl zabit pastí"
+			},
+			"science": {
+				"entry": "{0}: Dokončen výzkum {1}",
+				"main": "Výzkum dokončen!"
+			},
+			"siegemode": {
+				"disabled": "{0}: opustila obléhací režim",
+				"enabled": "{0}: vstoupila do obléhacího režimu",
+				"main": "Obléhací režim byl spuštěn na základně {0}!"
+			}
+		},
+		"npcs": {
+			"pipliz": {
+				"alchemist": "Alchymista",
+				"alkanetfarmer": "Farmář alkany",
+				"artist": "Umělec",
+				"barleyfarmer": "Farmář ječmene",
+				"beekeeper": "Včelař",
+				"berryfarmer": "Farmář bobulí",
+				"blastfurnace": "Obsluha vysoké pece",
+				"bloomeryjob": "Železář",
+				"builder": "Stavitel",
+				"builderreplacer": "_MISSING_Replace Builder",
+				"cabbagefarmer": "Farmář zelí",
+				"chestmaker": "Truhlář",
+				"chickenfarmer": "Farmář slepic",
+				"composter": "Kompostér",
+				"constructor": "Stavitel",
+				"cook": "Kuchař",
+				"coppersmith": "Kovář mědi",
+				"cottonengine": "Obluha kolovrátku",
+				"cottonfarmer": "Farmář vlny",
+				"digger": "Kopáč",
+				"diggerspecial": "_MISSING_Specific Digger",
+				"dyer": "Barvíř",
+				"engineer": "Inženýr",
+				"firepit": "Kuchtík",
+				"fisherman": "Rybář",
+				"flaxfarmer": "Farmář lenu",
+				"fletcher": "Lukař",
+				"forester": "Dřevorubec",
+				"glassblower": "Sklář",
+				"grinder": "Brusič",
+				"guardbowday": "Denní lučištník",
+				"guardbownight": "Noční lučištník",
+				"guardcrossbowday": "Denní kušiník",
+				"guardcrossbownight": "Noční kušiník",
+				"guardgrenadeday": "Denní granátometař",
+				"guardgrenadenight": "Noční granátometař",
+				"guardhandcannonday": "Denní bambitkář",
+				"guardhandcannonnight": "Noční bambitkář",
+				"guardmusketday": "Denní mušketař",
+				"guardmusketnight": "Noční mušketař",
+				"guardpoison": "Jedař",
+				"guardslingerday": "Denní práč",
+				"guardslingernight": "Noční práč",
+				"gunsmith": "Puškař",
+				"hempfarmer": "Farmář konopí",
+				"hollyhockfarmer": "Farmář topolovky",
+				"jeweller": "Klenotník",
+				"jobblockcrafter": "Pracovní rekrutant",
+				"jobblockcrafteradvanced": "Pokročilý pracovní rekrutant",
+				"kilnjob": "Uhlíř",
+				"laborer": "Dělník",
+				"metallathe": "Soustružník",
+				"minerjob": "Horník",
+				"networkplayer": "Hráč",
+				"papermaker": "Papírník",
+				"potter": "Hrnčíř",
+				"printingpress": "Tiskař",
+				"researcher": "Výzkumník",
+				"roper": "Provazník",
+				"sanctifier": "Posvěčovač",
+				"scribe": "Písař",
+				"smelter": "Hutník",
+				"stonemason": "Kameník",
+				"tabulator": "Obsluha štítkového stroje",
+				"tailor": "Krejčí",
+				"tanner": "Koželuh",
+				"tinkerer": "Kutil",
+				"trader": "Obchodník",
+				"trapfixer": "Pastičkář",
+				"watergatherer": "Naběrač vody",
+				"waterpump": "Pumpař",
+				"wheatfarmer": "Farmář pšenice",
+				"wisteriafarmer": "Farmář vistérie",
+				"wolfsbanefarmer": "Farmář vlčího máků",
+				"woodcutter": "Dřevorytec",
+				"writer": "Spisovatel"
+			}
+		},
+		"pipliz": {
+			"alarmbell": {
+				"description": "Odemyká poplašný zvon, který zazvoní když na něj šlápně monstrum.",
+				"name": "Poplašný zvon"
+			},
+			"animalcarcass": {
+				"description": "Odemyká nový zdroj mršin zvířat.",
+				"name": "Místní mršiny zvířat"
+			},
+			"anvil": {
+				"description": "Odemyká kovadlinu, důležitou pro pokročilé předměty jako měděné nástroje.",
+				"name": "Kovadlina"
+			},
+			"archery": {
+				"description": "Odemyká lukaře a lučistníky, kteří jsou efektivní při boji proti monstrům.",
+				"name": "Lučištnictví"
+			},
+			"artist": {
+				"description": "Odemyká novou práci, která se zcela věnuje estetice",
+				"name": "Umělec"
+			},
+			"astrolabe": {
+				"description": "Odemyká astroláb, navigační nástroj pro hledání biomů.",
+				"name": "Astroláb"
+			},
+			"blastfurnace": {
+				"description": "Odemyká učinnou cestu k tavení pokročilých kovů.",
+				"name": "Vysoká pec"
+			},
+			"brass": {
+				"description": "Odemyká mosaz, relativně měkkou slitinu. Není sice dělaná pro zbraně a nástroje, ale díky její kujnosti je vhodná na součástky. Vyžaduje zinek, který lze zakoupit nebo vytěžit pod mamutímy stromy.",
+				"name": "Mosaz"
+			},
+			"bread": {
+				"description": "Odemyká pečení chleba.",
+				"name": "Chleba"
+			},
+			"bricks": {
+				"description": "Umožňuje vypékat jíl do nového typu bloků.",
+				"name": "Cihly"
+			},
+			"bronze": {
+				"description": "Odemyká možnost vyrobit odolný bronz, smíchání měďi s vzácným cínem.",
+				"name": "Doba bronzová"
+			},
+			"bronzelockbox": {
+				"description": "Odemyká bronzovou skríňku, vylepšenou verzi měděné, která více zvyšuje kapacitu bodů kolonie a méně zvyšuje úroveň hrozby.",
+				"name": "Bronzová skříňka"
+			},
+			"caltrop": {
+				"description": "Odemyká past, která dokáže zpomalit monstra pod ní.",
+				"name": "Kaltropy"
+			},
+			"chestluxury": {
+				"description": "Odemyká luxusní truhlu, která je potřebná pro odemčení pokročilých technologií.",
+				"name": "Luxusní truhla"
+			},
+			"chestprestige": {
+				"description": "Odemyká prestižní truhlu, která je potřebná pro výzkum prestiže pro pokročilé kolonie.",
+				"name": "Prestižní truhla"
+			},
+			"chestresource": {
+				"description": "Odeymká vědeckou truhlu, která je potřebná pro odemčení pokročilých technologií.",
+				"name": "Vědecká truhla"
+			},
+			"chickenmeal": {
+				"description": "Odemyká složitější kuřecí jídlo, které při snězení kolonistou přidává posváné body.",
+				"name": "Kuřecí jídlo"
+			},
+			"classical": {
+				"description": "Oživte způsob, jakým stará civilizace stavěla",
+				"name": "Klasická architektura"
+			},
+			"compass": {
+				"description": "Odemyká kompas, navigační nástroj pro nalezení cesty zpátky domů.",
+				"name": "Kompas"
+			},
+			"constructionbuilder": {
+				"description": "Odemyká oblast pro stavitele.",
+				"name": "Stavitel"
+			},
+			"constructiondigger": {
+				"description": "Odemyká oblast pro kopáč.",
+				"name": "Kopáč"
+			},
+			"constructiondiggerspecial": {
+				"description": "_MISSING_Unlock advanced construction areas",
+				"name": "_MISSING_Advanced Construction"
+			},
+			"cook": {
+				"description": "Odemyká kuchaře a rybáře, kteří poskytují nový zdroj jídla pro kolonisty.",
+				"name": "Kuchař"
+			},
+			"copperlockbox": {
+				"description": "Odemyká měděnou skříňku. Pokud je položena, zvyšuje kapacitu bodů kolonie, ale zároveň také zvyšuje úroveň hrozby!",
+				"name": "Měděná skříňka"
+			},
+			"cotton": {
+				"description": "Odemyká bavlnu, zdroj vysoce kvalitní látky. Bavlník roste jenom na vřesovišti.",
+				"name": "Bavlna"
+			},
+			"crossbow": {
+				"description": "Zbraně silnější než luky!",
+				"name": "Kuše"
+			},
+			"dyeing": {
+				"description": "Umožňuje pěstování květin a přidává tak světu trochu barev.",
+				"name": "Barvíř"
+			},
+			"elevator": {
+				"description": "Odemyká výtah, efektivní možnost vertikálního cestování.",
+				"name": "Výtah"
+			},
+			"elevatorhorizontal": {
+				"description": "Odemkněte výrobu kolejnic, užitečné pro přejíždění vodorovných vzdáleností.",
+				"name": "Kolejnice"
+			},
+			"engineer": {
+				"description": "Odemyká inženýra a pastičkáře. Inženýr vyrábí pasti a náboje do nich a pastičkář pasti doplňuje. Pasti lze použít na zabíjení monster.",
+				"name": "Inženýř"
+			},
+			"failsafe": {
+				"description": "Odemyká posvátnou záchranu, obranný prvek využívající posvátné body pro oslabení zombíků.",
+				"name": "Posvátný Failsafe"
+			},
+			"farming": {
+				"description": "Odemyká farmáře pšenice. Význam pšenice v souvislosti s jídlem s časem poroste.",
+				"name": "Farmaření pšenice"
+			},
+			"fence": {
+				"description": "Může být velmi praktický, ale hlavně estetický.",
+				"name": "Plot"
+			},
+			"flowerbox": {
+				"description": "Rozdejte nějakou trvalou náladu",
+				"name": "Květinová krabice"
+			},
+			"furnace": {
+				"description": "Odemyká hutníka, pracovníka, který zpracovává rudy.",
+				"name": "Hutnictví"
+			},
+			"glassblower": {
+				"description": "Odemyká cestu k tvorbě skla.",
+				"name": "Sklář"
+			},
+			"glider": {
+				"description": "Odemyká logaro umožňující míření do vyšších míst.",
+				"name": "Rogalo"
+			},
+			"glidersteel": {
+				"description": "Odemyká ocelové rogalo, které tě vystřelí ještě mnohem výš.",
+				"name": "Ocelové rogalo"
+			},
+			"goldenstatue": {
+				"description": "Odemyká sochu ohrožení, která láká monstra z jiných základ k té, ve které je umístěna.",
+				"name": "Socha ohrožení"
+			},
+			"grassdirt": {
+				"description": "Poskytuje zdroj trávy a hlíny.",
+				"name": "Produkce trávy a hlíny"
+			},
+			"grenadelauncher": {
+				"description": "Odemyká mocnou zbraň která uděluje plošné poškození.",
+				"name": "Granátomet"
+			},
+			"gunpowder": {
+				"description": "Odemyká mocný prášek.",
+				"name": "Střelný prach"
+			},
+			"guntrap": {
+				"description": "Odemyká silnou projektilovou, která uděluje přímo enormní poškození.",
+				"name": "Projektilová past"
+			},
+			"handcannon": {
+				"description": "Odemyká silnou zbraň na krátkou vzdálenost.",
+				"name": "Bambitka"
+			},
+			"hemp": {
+				"description": "Odemyká pěstování konopí v bažinách, stejně jako jeho možnost nákupu. Další krok k produkci lan a papíru.",
+				"name": "Konopí"
+			},
+			"iron": {
+				"description": "Velký skok pro kolonii. Odemyká nové materiály, které jsou potřebné pro mnoho dalších předmětů.",
+				"name": "Doba železná"
+			},
+			"jewellery": {
+				"description": "Odemyká klenotníka, který vyrábí nejen nádherné šperky.",
+				"name": "Klenotník"
+			},
+			"jewelry": {
+				"description": "Odemyká šperky, výborný předmět pro obchodování.",
+				"name": "Klenotnictví"
+			},
+			"lanterns": {
+				"description": "Odemyká lucerny, užitečné bloky pro osvětlení.",
+				"name": "Lucerny"
+			},
+			"lathe": {
+				"description": "Odemyká komplexní stroj umožňuzjící rapidní výrobu kovových součástek.",
+				"name": "Kovový soustruh"
+			},
+			"miner": {
+				"description": "Odemyká horníka. Když je horník umístěn na blok kamene či jiné rudy, začně je těžit.",
+				"name": "Horníctví"
+			},
+			"monocular": {
+				"description": "Odemyká šikovný nástroj, kterým lze pozorovat dálku.",
+				"name": "Dalekohled"
+			},
+			"mudbricks": {
+				"description": "Odemyká nepálené cyhly, levný a jednoduchý stavební materiál.",
+				"name": "Nepálené cihly"
+			},
+			"musket": {
+				"description": "Odemyká novou zbraň na střelný prah. Uděluje menší poškození než bambitka, ale její náboje jsou levnější, má větší dosah a má rychlejší přebíjení.",
+				"name": "Mušketa"
+			},
+			"nitro": {
+				"description": "Odemyká vysoce výbušnou a potenciální směs nezbytnou pro bezdýmný prach. Je méně znečišťující než klasický střelný prach a umožňuje vývoj pokročilejších střelných zbraní.",
+				"name": "Nitrocelulóza"
+			},
+			"npcshop": {
+				"description": "Odemyká koloniál, místo, kde mohou kolonisti vyzvednout své denní jídlo. Pokud není žádný umístěn, chodí si pro něj k praporu.",
+				"name": "Koloniál"
+			},
+			"outposts": {
+				"description": "Odemyká prapory základen. Můžou být umístěny pro rozšíření kolonie jak blízko, tak daleko.",
+				"name": "Základny"
+			},
+			"paint": {
+				"description": "Přebarvit některé estetiky",
+				"name": "Barva"
+			},
+			"papermaking": {
+				"description": "Odemyká výrobu papíru z konopí, klíčový prvek ve vědeckém výzkumu.",
+				"name": "Papír"
+			},
+			"poison": {
+				"description": "Odemyká výrobu jedu, užitečného pro průběžné poškozování monster. Vistárie roste pouze na vřesovišti. Každý farmář Vistárie potřebuje v blízkosti ideálně 10 květů Vistárie pro správné fungování.",
+				"name": "Jed"
+			},
+			"porridge": {
+				"description": "Odemyká hustou ovesnou kaši složenou z vody a pšenice.",
+				"name": "Hustá ovesná kaše"
+			},
+			"pottery": {
+				"description": "Odemyká hrnčířství. To umožňuje vyrábět hliněné nádoby, které lze využít na nošení věcí nebo na prodej.",
+				"name": "Hrnčířství"
+			},
+			"prestige1": {
+				"description": "Malý krok pro kolonii, ale velký krok pro tvou prestiž!",
+				"name": "Prestiž I"
+			},
+			"prestige2": {
+				"description": "Cíl není to podstatný, důležitá je cesta k němu.",
+				"name": "Prestiž II"
+			},
+			"prestige3": {
+				"description": "Tento bod je bodem cti, zlatým středem prestiží.",
+				"name": "Prestiž III"
+			},
+			"prestige4": {
+				"description": "Poslední úsek je vždy nejhorší!",
+				"name": "Prestiž IV"
+			},
+			"prestige5": {
+				"description": "Gratululujeme! Právě jsi dokončil všechny prestiže.",
+				"name": "Prestiž V"
+			},
+			"printingpress": {
+				"description": "Odemyká tiskařský list, komplexní stroj umožňující rozšířit produkci knih vědění. Také odemyká mosazné součásti, které jsou požadovány mnoha stroji.",
+				"name": "Tiskařský lis"
+			},
+			"projectiletrap": {
+				"description": "Odemyká past, která po nabití střílí šípy na silná mosnstra.",
+				"name": "Šípová past"
+			},
+			"recursiveknowledge": {
+				"description": "Pomáhá vyrábět knihy využíváním knih, což umožňuje dělat víc knih.",
+				"name": "Rekurzivní sebezlepšení"
+			},
+			"researcher": {
+				"description": "Odemyká výzkumníka, který pracuje na výzkumu využíváním blízkých knihoven.",
+				"name": "Výzkumník"
+			},
+			"roofs": {
+				"description": "Atraktivní způsob, jak zakrýt své budovy",
+				"name": "taškové střechy"
+			},
+			"ropes": {
+				"description": "Odemyká předmět pro mnoho využití.",
+				"name": "Lana"
+			},
+			"ropetrap": {
+				"description": "Odemyká lanovou past, která zastaví monstra v dosahu na 10 sekund, když je aktivována monstrem.",
+				"name": "Lanová past"
+			},
+			"sacredhouse": {
+				"description": "Odemyká sklad posvátných bodů, který zvětší jejich kapacitu pro využití v posvátném oltáři.",
+				"name": "Sklad posvátných bodů"
+			},
+			"scribe": {
+				"description": "Odemyká písaře, který studuje svitky, aby získal nové poznatky. Písař potřebuje 10 poliček se svitky v okolí. Písař je vyprázdní, ale časem se opět automaticky naplní.",
+				"name": "Písař"
+			},
+			"signs": {
+				"description": "Čas dát na věci své jméno",
+				"name": "Cedule"
+			},
+			"statistics": {
+				"description": "Odemyká nástěnku statistik. Můžeš se zde podívat na aktivitu vaší kolonie.",
+				"name": "Nástěnka statistik"
+			},
+			"steel": {
+				"description": "Odemyká ocel, lano a minerální olej. Ty jsou nezbytné pro stabvu moderních strojů. Olověnou rudu najdeš v bažinách a uhlí zas pod mamutímy stromy.",
+				"name": "Ocel, olovo a minerální olej"
+			},
+			"steellockbox": {
+				"description": "Odemyká ocelovou skřínků, která má větší kapacitu.",
+				"name": "Ocelová skříňka"
+			},
+			"steeltools": {
+				"description": "Odemyká ocelové nástoje, které jsou odolnější a umožňují kolonistům pracovat efektivněji.",
+				"name": "Ocelové nástroje"
+			},
+			"stonemason": {
+				"description": "Odemyká kameníka ideálního pro zpestření budov.",
+				"name": "Kamenictví"
+			},
+			"streetlight": {
+				"description": "Mnohem vkusnější než pochodně",
+				"name": "Pouliční osvětlení"
+			},
+			"tabulator": {
+				"description": "Odemyká komplexní stroj, který dokáže zpracovat data a zaznamenat je na děrný štítek.",
+				"name": "Štítkovací stroj"
+			},
+			"tailoring": {
+				"description": "Odemyká krejčíře, který mění len na látku.",
+				"name": "Křejčířství"
+			},
+			"tanner": {
+				"description": "Odemyká koželuha, který vyrábí kůži a pergamen.",
+				"name": "Koželužství"
+			},
+			"toolshop": {
+				"description": "Odemyká distribuční stůl, místo kde si mohou kolonisti vzít nástroje. Pokud není žádný umísteň, chodí si k praporu.",
+				"name": "Distribuční stůl"
+			},
+			"trader": {
+				"description": "Urychluje obchodování mezi koloniemi (ne mezi základnami). Určený pro hru více hráčů.",
+				"name": "Obchodník"
+			},
+			"trading": {
+				"description": "Odemyká obchodní stůl, místo, kde můžeš prodávat a nakupovat předměty.",
+				"name": "Obchodovací stůl"
+			},
+			"waterpump": {
+				"description": "Odemyká vodní pumpu, která umožňuje získávání vody z jiného zdroje, než jezera.",
+				"name": "Vodní pumpa"
+			},
+			"watersponge": {
+				"description": "Odstraňuje vodu ve své lokální oblasti hluboce realistickým způsobem",
+				"name": "Archimédův šroub"
+			},
+			"writer": {
+				"description": "Odemyká spisovatele. Svitky a vědění jsou důležité pro pokročilý výzkum.",
+				"name": "Spisovatelství"
+			}
+		},
+		"popup": {
+			"areaselection": {
+				"close": "Zavřít",
+				"descriptionshort": "_MISSING_Remove this area?",
+				"header": "Menu oblasti",
+				"remove": "Odstranit oblast",
+				"size": "_MISSING_Area size: <b>{0}</b>",
+				"workertype": "_MISSING_Worker type: <b>{0}</b>"
+			},
+			"death": {
+				"description": "Zemřel jsi.",
+				"respawn": "Oživit"
+			},
+			"inventory": {
+				"availableamount2": "V zásobě",
+				"craftingstockpile": "Výroba a zásoby",
+				"happinessvalue2": "Hodota spokojenosti",
+				"happy": {
+					"header": "Spokojenost"
+				},
+				"madeintooltip": "Vyrábí se v:",
+				"madeintooltippurchasable": "Koupitelné v obchodě za {0} bodů",
+				"noactivecolony": "Nemáš žádnou aktivní kolonii!",
+				"science": {
+					"available": "Dostupné",
+					"completed": "Dokončené",
+					"completeunlock": "Dokončit",
+					"conditioncolonistcount": "Kolonisté",
+					"conditioncolonistcountdescription": "Požadovaný počet kolonistů",
+					"conditionpointreq": "Body kolonie",
+					"conditionpointreqdescription1": "Požadavek na body kolonie",
+					"conditionpointreqdescription2": "Požadovaný: {0}",
+					"conditionpointreqdescription3": "Dostupný: {0}",
+					"conditionscientistrequires": "Požaduje {0}",
+					"dependencies": "Potřebné technologie:",
+					"followups": "Návazný výzkum:",
+					"header": "Věda",
+					"recipeunlocknpcgroup": "Odemyká {0}",
+					"recipeunlockoriginjob": "Vyrobeno v {0}",
+					"recipeunlockoriginplayer": "Vyrobeno hráčem",
+					"recipeunlocks": "Recept odemyká:",
+					"startscience": "Začít výzkum",
+					"threat": "Zvýši stupeň ohrožení o {0}",
+					"unavailable": "Nedostupné"
+				},
+				"searchfieldplaceholder": "Zadej filtr hledání...",
+				"stats": {
+					"auto-scale": "Automatická velikost",
+					"entry-beds": "Postelí",
+					"entry-meals": "Celkem jídla",
+					"entry-npccount": "Kolonistů",
+					"entry-points": "Body kolonie",
+					"entry-sanctified": "Posvnátné body",
+					"entry-unemployed": "Nezaměstaných",
+					"hide-all": "Skrýt vše",
+					"only-changed": "Ukázat pouze změněné",
+					"scale": "Velikost:",
+					"scale-linear": "Linearně",
+					"scale-log": "Log",
+					"show-all": "Ukázat vše",
+					"time1day": "Den",
+					"time24day": "24 dní",
+					"time4day": "4 dny",
+					"type-colony": "Kolonie",
+					"type-consumption": "Spotřeba",
+					"type-consumption-col": "Spotřeba kolonie",
+					"type-consumption-out": "Spotřeba základny",
+					"type-idle-jobs": "Doba nečinnosti",
+					"type-idle-jobs-col": "Doba nečinnosti kolonizace",
+					"type-idle-jobs-out": "Doba nečinnosti základny",
+					"type-itempoints": "Bodové předměty",
+					"type-outpost": "Základna",
+					"type-production": "Produkce",
+					"type-production-col": "Produkce kolonie",
+					"type-production-out": "Produkce základny",
+					"type-stockpile": "Zásoba",
+					"type-tooluse": "Použité nástroje",
+					"type-tooluse-col": "Použité nástroje kolonie",
+					"type-tooluse-out": "Použití nástroje základny",
+					"type-trade-in": "Příchozí směna",
+					"type-trade-out": "Odchozí směna"
+				},
+				"tooltip": {
+					"and": "a",
+					"craftingtime": "Doba výroby: {0} sekund",
+					"craftingtimetooled": "Doba výroby s {0}: {1} sekund",
+					"instockpile": "V zásobách",
+					"needs": "Potřebuje: ",
+					"nothing": "Nic nenalezeno"
+				},
+				"trashicon": "_MISSING_Drop items here to trash them",
+				"upgrades": {
+					"header": "Body kolonie",
+					"preamble2": "<i>Aktuálně bodů / kapacita</i>",
+					"table": {
+						"cost": "Cena",
+						"current": "Aktuálně",
+						"levels": "Úroveň",
+						"name": "Vylepšení",
+						"next": "Následující"
+					},
+					"upgradebutton": "Vylepšit"
+				}
+			},
+			"itemselector": {
+				"description": "Vyber předmět...",
+				"header": "Výběr předmětu"
+			},
+			"limits": {
+				"allreset": "Obnovit vše",
+				"allzero": "Obnovit vše na nulu",
+				"description": "Kolonisti budou pracovat dokud nebude dosaženo daného počtu v zásobách.",
+				"group1": "Zvolit limity skupiny",
+				"group2": "Zvolit jednu z více skupin pro tohoho pracovníka. Úprava limitu upraví limity všem pracovníkům tohoto typu v této skupině.",
+				"hoverpriority": {
+					"a": "Výrobní priorita",
+					"b": "Věci s prioritou +++ budou vyrobeny první. Věci s prioritou + budou vyrobeny poslední."
+				},
+				"waitingdata": "Čekání na data...",
+				"wrongcolony": "Zvolená pracovní pozice je součástí jiné kolonie"
+			},
+			"merchantui": {
+				"buy": "Koupit",
+				"buy1": "Koupit 1",
+				"buy25": "Koupit 25",
+				"buy5": "Koupit 5",
+				"buytext": "Koupit {0} za {1} bodů",
+				"buytext2": "Aktuální body umožňují koupení {0}",
+				"currentpoints": "Aktuálně bodů: {0} / {1}",
+				"description": "Koupit/prodat předměty za body",
+				"header": "Obchodování",
+				"sell": "Prodat",
+				"sell1": "Prodat 1",
+				"sell25": "Prodat 25",
+				"sell5": "Prodat 5",
+				"selltext": "Prodat {0} za {1} bodů",
+				"selltext2": "Aktuální zásoby umožnují prodej {0}"
+			},
+			"npccontext": {
+				"colony": "_MISSING_Colony:",
+				"fire": "_MISSING_Expel",
+				"header": "_MISSING_Colonist Info",
+				"job": "_MISSING_Job:",
+				"name": "_MISSING_Name:",
+				"showgoal": "_MISSING_Mark goals"
+			},
+			"quickstart": {
+				"closetoggle": "Znovu nezobrazovat",
+				"next": "Další",
+				"previous": "Předchozí"
+			},
+			"signs": {
+				"apply": "Použít",
+				"edit": "Upravit",
+				"header": "Cedule"
+			},
+			"specialblockremoval": {
+				"button": "Odstranit",
+				"description": "Odstranění tohoto bloku {0} může způsobit problémy pro vaší kolonii. Co chceš dělat?",
+				"header": "Odstranění speciálního bloku"
+			},
+			"toolconstruction": {
+				"currentshape": "_MISSING_<i>Current Shape</i>: <b>{0}</b>",
+				"description": "Vyber typ oblasti, kterou chceš vytvořit.",
+				"header": "Nástroj pro konstrukce",
+				"shapemenudescription": "_MISSING_Select the shape to use for the next areas",
+				"shapes": {
+					"FullBox": "_MISSING_Solid Box",
+					"HollowBox": "_MISSING_Hollow Box",
+					"SolidCylinder": "_MISSING_Solid Cylinder",
+					"Walls": "_MISSING_Walls",
+					"WallsCylinder": "_MISSING_Cylindrical Walls"
+				}
+			},
+			"tooljob": {
+				"barleya": "Určeno pro chov na maso",
+				"barleyfarmer": "Farmář ječmene",
+				"beekeeper": "Včelař",
+				"beekeepera": "Čato vypadá, jako kdyby mu uletěly včely",
+				"berrya": "Rychlé a jednoduché jídlo, začni s tímto!",
+				"berryfarmer": "Sběrač bobulí",
+				"berryfarmertool": "Nástroj sběrače bobulí",
+				"buildera": "Zacpi díry ve světě",
+				"builderarea": "_MISSING_Build All",
+				"builderb": "Otevře další menu, kde určíš, ze kterého materiálu bude stavitel stavět",
+				"builderreplacer": "_MISSING_Replace Specific",
+				"builderreplacera": "_MISSING_Replace one type with another",
+				"builderreplacerb": "_MISSING_Select an area in which to replace one type of block with another",
+				"cabbagea": "Nezbytný pro luxusní jídla",
+				"cabbagefarmer": "Farmář zelí",
+				"chickenfarmer": "Farmář slepic",
+				"chickenfarmera": "Slepice dávají vajíčka, maso a pírka",
+				"construction": "Konstrukce",
+				"construction1": "Nech je stavět a kopat za vás",
+				"construction2": "Otevře další menu s různými typy konstrukcí",
+				"constructionjob": "_MISSING_Job Spot",
+				"constructionjoba": "Zaměstná kolonistu jako stavitele",
+				"constructionjobb": "Polož blízko prostoru konstruktéra",
+				"coversarea": "Překrývá se s existující oblastí",
+				"description": "Vyber typ oblasti, kterou chceš vytvořit.",
+				"diggera": "Udělej díru do světa",
+				"diggerarea": "_MISSING_Remove All",
+				"diggerb": "Vyber prostor, který chceš vykopat",
+				"diggerspecial": "_MISSING_Remove Specific",
+				"diggerspeciala": "Odstraňte specifické bloky",
+				"diggerspecialb": "Vyberte prostor, kde bude zaměřený kopáč kopat",
+				"dyer1": "Obarvi to a udělej svět zase trochu méně černobílým",
+				"dyer2": "Otevře další menu s různými typy farem",
+				"dyers": "Barvení",
+				"flaxfarmer": "Farmář lenu",
+				"flaxfarmertool": "Nástroj farmáře lenu",
+				"forester": "Dřevorubec",
+				"forestera": "Sází a kácí stromy",
+				"foresterb": "Umísti jej na hlínu nebo trávu",
+				"forestertool": "Nástroj dřevorubce",
+				"header": "Nástroj pro oblasti",
+				"hempfarmer": "Farmář konopí",
+				"missingscience": "<color=#ff2323>Vyžaduje vyzkoumanou technologii '{0}'</color>",
+				"noconstructionareanearby": "Žádná konstrukce blízko",
+				"notarablefen": "_MISSING_Requires arable marshland below",
+				"notarableheath": "_MISSING_Requires arable heath below",
+				"notarablenormal": "_MISSING_Requires arable ground below",
+				"notflat": "Nerovná oblast",
+				"nowaternearby": "Žádný blízký zdroj vody",
+				"occupiedblocks": "Obsazeno bloky",
+				"requiresarable": "Vyžaduje úrodnou půdu",
+				"toolarge": "Moc velké",
+				"toonarrow": "Příliš úzké pro stromy",
+				"toosmall": "Moc malé",
+				"wateradjacent": "Vyžaduje blízkost vodního zdroje",
+				"wheatfarmer": "Farmář pšenice",
+				"wheatfarmertool": "Nástroj farmáře pšenice"
+			},
+			"toolshop": {
+				"description": "Nastav minimální požadované zásoby, které jsou potřeba než si kolonisté nástroje vezmou a umožni jim je tak využít pro výrobu a výzkum.",
+				"header": "Obchod s nářadím"
+			}
+		},
+		"quickstart": {
+			"page1_2": {
+				"description": "Vítej v Colony Survival!",
+				"header": "Základy",
+				"text1_2": "_MISSING_Start by finding a good spot for your first colony. Having water and flat fields for farming nearby is recommended. A Banner will be the center of your colony.",
+				"text2_2gamepad": "_MISSING_Select the Banner Tool in the inventory below using <style=Player/HotBarUp> and <style=Player/HotBarDown>. Place it with <style=Player/FireSecondary> while aiming at the ground with the Banner Tool selected. Once in a Colony, the Banner Tool displays a deep shadow wherever monsters may spawn later.",
+				"text2_2keyboard": "_MISSING_Select the Banner Tool in the inventory below using <style=Player/Inventory1>. Place it with <style=Player/FireSecondary> while aiming at the ground with the Banner Tool selected. Once in a Colony, the Banner Tool displays a deep shadow wherever monsters may spawn later.",
+				"text3_2": "_MISSING_Place beds to be able to recruit colonists. Press <style=Player/ToggleInventory> to open the interface. Move beds from the stockpile to the hotbar below. With the bed selected, use <style=Player/FireSecondary> while aiming at ground to place a bed.",
+				"text4": "Otevři menu a rekrutuj své první kolonisty."
+			},
+			"page2_2": {
+				"description": "Nezbytnosti pro růst a přežití",
+				"header": "Jídlo a postele",
+				"text1": "Kolonisté potřebují jedno jídlo denně. Berou si ho z praporu nebo z nejbližšího koloniálu. Bez jídla kolonisté vyhladoví. Rekrutování nových kolonistů stojí také trochu jídla.",
+				"text2_2gamepad": "_MISSING_The berry farmer is the first food source. Select the Command Tool (the first inventory slot). <style=Player/FirePrimary> to open it and select the berry farmer. <style=Player/FireSecondary> to start defining the berry farm, then <style=Player/FireSecondary> again elsewhere to finish. You’ll need quite a lot of these!",
+				"text2_2keyboard": "_MISSING_The berry farmer is the first food source. Select the Command Tool (<style=Player/Inventory0>). <style=Player/FirePrimary> to open it and select the berry farmer. <style=Player/FireSecondary> to start defining the berry farm, then <style=Player/FireSecondary> again elsewhere to finish. You’ll need quite a lot of these!",
+				"text3_2": "_MISSING_To start producing beds, you’ll have to craft a tinkerer’s table. Holding <style=Player/FirePrimary> while aiming at blocks will allow you to dig down to gather the required stone rubble.",
+				"text4": "Klikni na ikonu kutilova stolu vlevo nahoře v zásobách, abys jeden vyrobil a umísti jej stejně jako postel. Obdobně jako u sběrače bobulí, si nezaměstnaní kolonisté automaticky zaberou volnou pracovní pozici."
+			},
+			"page3_2": {
+				"description": "Technologická stránka přežití",
+				"header": "Výroba, výzkum a těžba",
+				"text1": "Kolonisté si budou brát z bedny se zásobami potřebné předměty a dávat do ní předěty jimi vyrobené. Pokud není v kolonii umístěna žádná bedna, budou chodit k praporu.",
+				"text2": "Mnoho pracovních pozic může nebo musí používat nástroje. Různé nástroje mají různou cenu, výdrž a bonusovou rychlost. Kutil automaticky vyrábí kamenné nástroje.",
+				"text3": "Zkoumej, abys odemkl nové pracovní pozice, předměty a funkce. Otevři menu a záložku 'Výzkum' pro kontrolu požadavků a zkoumání nových dostupných technologií.",
+				"text4": "Když odemkneš horníka, kutil začne vyrábět jeho pracovní pozici. Prokopej se do podzemí, najdi bloky temného kamene nebo jiné rudy a umísti na daný blok horníka, pro jeho těžení."
+			},
+			"page4_2": {
+				"description": "Obraň svou kolonii proti nočním monstrům!",
+				"header": "Obrana kolonie",
+				"text1": "Výzkum časem zvýší úroveň hrozby. Její stav můžeš sledovat vpravo nahoře. Rekrutování kolonistů úroveň nezvyšuje do celkové počtu 25, poté každý kolonista lehce úroveň zvyšuje. Čím je úroveň hrozby vyšší, tím jsou přicházející monstra početnější a silnější.",
+				"text2": "Postav zdi nebo vykopej příkopy v bezpečné oblasti praporu, abys ochránil svou kolonii před monstry. Neboj se umístit farmáře a podobné pracovní pozice mimo bezpečnou oblast praporu. Kolonisté před nocí opustí svou práci a půjdou spát do svých postelí.",
+				"text3": "Kutilové produkují pracovní pozici 'Noční práč'. Umísti jej a rekrutuj kolonistu, který pracovní pozici převezme a bude bránit kolonii během noci.",
+				"text4": "Postupuj ve výzkumu a odemkni nové srážce, pasti nebo posvátnou záchranu."
+			},
+			"page5_2": {
+				"description": "Obchoduj a expanduj pro jedinečné zdroje",
+				"header": "Body kolonie a kolonizace",
+				"text1_2": "_MISSING_Unlock and place the Merchant’s Hub. Use <style=Player/FireSecondary> to open its interface. Sell items to earn Colony Points. Among others, points can be spent on upgrades like the colonist limit in the Colony Points page.",
+				"text2": "Svět obsahuje několik biomů s unikátními zdroji. Jsou zde hory pokryté sněhem, fialové vřesoviště, bažiny či mamutí stromy. Odemkni a použij astroláb na jejich jednoduché nalezení.",
+				"text3": "Odemkni základny, kup prapor základny a nos ho s sebou při průzkumu. Až najdeš ideální místo, můžeš založit novou základnu jeho umístěním. Její zásoby a věda budou sdíleny s hlavní kolonií a všemi ostatními základnami. Stav základny v jiným biomech pro přístupu k unikátním zdrojů, které jiné biomy nenabízí."
+			},
+			"page6_2": {
+				"description": "Vytvářej složitější pracovní pozice",
+				"header": "Pracovní pozice požadující zdrojové bloky",
+				"text1": "Některé pracovní pozice navíc požadují dodatečné umístění zdrojových bloků. Většinou jich každá daná pracovní pozice potřebuje kolem 10.",
+				"text2": "Daní kolonisté se budou pokoušet navštívit nejbližší zdrojové bloky než začnou vyrábět. v případě písaře se například jedná o poličky.",
+				"text3": "Daní kolonisté tyto zdrojové bloky vyprazdňují, ty se ale automaticky samy doplňují. Poměr 1:10 zajišťuje dlouhodobou rovnováhu."
+			}
+		},
+		"settingsmenu": {
+			"audio": "Zvuk",
+			"audiomenu": {
+				"ambientvolume": "Hlasitost okolí",
+				"effectsvolume": "Hlasitost efektů",
+				"full": "Nastavení zvuku",
+				"mastervolume": "Celková hlasitost",
+				"menuvolume": "Hlasitost v menu",
+				"torchvolume": "Hlasitost pochodní"
+			},
+			"gameplay": "Hratelnost",
+			"gameplaymenu": {
+				"full": "Nastavení hratelnosti",
+				"gameplaytab": {
+					"adaptivecrosshair": "Adaptivní zaměřovač",
+					"crosshairratio": "Velikost zaměřovače",
+					"devbuttons": "Povolit vývojářské tlačítka",
+					"permanenthighlight": "Trvalé zvýraznění bloku",
+					"ratio0": "Zakázáno",
+					"ratio100": "100%",
+					"ratio125": "125%",
+					"ratio150": "150%",
+					"ratio175": "175%",
+					"ratio200": "200%",
+					"ratio25": "25%",
+					"ratio250": "250%",
+					"ratio300": "300%",
+					"ratio400": "400%",
+					"ratio50": "50%",
+					"ratio62": "62%",
+					"ratio75": "75%",
+					"ratio87": "87%",
+					"showcolonistjobinname": "_MISSING_Display job in name",
+					"showsensitivedatamode": "Ukázat citlivá data",
+					"tab": "Hlavní nastavení",
+					"uiscalingratio": "Velikost UI"
+				},
+				"mousemenu": {
+					"inverty": "Prohodit osu-y",
+					"sensitivity": "Citlivost myši",
+					"smooth": "Vyhlazení pohybu myši",
+					"swapprimsec": "Prohodit levé/pravé kliknutí na myši"
+				},
+				"mousesettings2": "Myš & Klávesnice",
+				"padmenu": {
+					"mainbutton": "Gamepad (controller)",
+					"sensitivity": "Citlivost míření (cíle)"
+				}
+			},
+			"language": "Jazyk",
+			"languagemenu": {
+				"coverage": "Tato lokalizace je hotová z {0:F1}%. Pokud chceš s lokalizací pomoct, navštiv fórum nebo Github Colony Survival.",
+				"full": "Nastavení jazyku",
+				"language": "Jazyk",
+				"wiptext": "Hra je průběžně překládána komunitou. Nejedná se však o překlad kompletní hry, a některé popisy tak mohou zůstávat nepřeložené."
+			},
+			"qualitycustom": "Vlastní",
+			"qualityhigh": "Vysoká",
+			"qualitylow": "Nízká",
+			"qualitymaximum": "Maximální",
+			"qualitymedium": "Střední",
+			"qualityminimum": "Minimální",
+			"qualityoff": "Vypnuto",
+			"qualityon": "Zapnuto",
+			"qualityveryhigh": "Velmi vysoká",
+			"qualityverylow": "Velmi nízká",
+			"video": "Grafika",
+			"videomenu": {
+				"ambientocclusion": "Okolní okluze",
+				"anisotropic": "Anizotropní filtrování x16",
+				"antialiasing": "Vyhlazování",
+				"bloom": "Bloom",
+				"depthoffield": "Hloubka pole",
+				"drawdistance": "Vzdálenost vykreslení (*)",
+				"fieldofview": "Rozhled",
+				"fog": "_MISSING_Fog",
+				"full": "Nastavení grafiky",
+				"fullscreen": "Celá obrazovka",
+				"particleeffects": "Efekty částic",
+				"preset": "Přednastavení",
+				"ragdoll": "Kvantita",
+				"resolution": "Rozlišení",
+				"restarttoapply": "(*) Pro použití je potřeba restartovat hru",
+				"shaderquality": "Kvalita stínů",
+				"sunshadowcascades": "Kaskádové stíny slunce",
+				"sunshadowdistance": "Vzdálenost stínů",
+				"sunshadowquality": "Kvalita stínů slunce",
+				"texturequality": "Kvalita textur (*)",
+				"torchquality": "Kvalita světla",
+				"vsync": "VSync",
+				"vsyncdouble": "Dvojitý"
+			}
+		},
+		"singleplayermenu": {
+			"alreadyexists": "Svět již existuje!",
+			"cancel": "Zrušit",
+			"cloudsync": "_MISSING_Use Steam Cloud Sync",
+			"confirmdelete": "Potvrdit smazání",
+			"confirmdeletedescription": "Chystáš se smazat adresář obsahující data tohoto světa.\nCo chceš dělat?",
+			"confirmload": "Potvrzování načítání",
+			"delete": "Vymazat",
+			"hostingoptions": "Nastavení hostování",
+			"legacyworldhint": "Zvolený svět je zastaralý. Pro načtení toho světa musíš přepnout na starší verzi Colony Survival. To můžeš udělat ve Steamu ve vlastnostech hry, kde zvolíš starší kompatibilní verzi.",
+			"load": "Načíst",
+			"loadworld": "Načíst svět",
+			"missingname": "Není zvolen název světa",
+			"modconfiguration": "Nastavení módu",
+			"modoutdated": "[Zastaralý]",
+			"modschanged": {
+				"added": "'{0}' byl přidán",
+				"disabled": "'{0}' je zakázán nebo chybí, ale byl dříve použit.",
+				"header": "Potvrzování načítaní světa",
+				"main": "Načítání světa '{0}' ale nějaké módy byly změněny.\nTo může způsobovat problémy.",
+				"updated": "'{0}' byl aktualizován z verze {1} na verzi {2}."
+			},
+			"modselectall": "Zvolit vše",
+			"modselectnone": "Nezvolit žádný",
+			"modslist": {
+				"disableddependency": "[Zakázáno]",
+				"missingdependency": "[Chybí]",
+				"outdateddependency": "[Zastaralé]",
+				"requireddependency": "[Požadováno]"
+			},
+			"newworld": "Nový svět",
+			"nosubscribeditems": "Nebyl nalezen žádný odebíraný svět z workshopu",
+			"outdated": "Zastaralý svět",
+			"password": "Heslo",
+			"play_coop": "Hrát co-op",
+			"play_solo": "Hrát solo",
+			"selectedfolder": "Zvolený svět: {0}",
+			"servername": "Název serveru",
+			"serverport": "Port serveru",
+			"typegenerateworld": "Vytvořit svět",
+			"typeworkshop": "Svět z workshopu",
+			"world_folder": "Složka",
+			"world_outdated": "Vyžaduje starší verzi",
+			"worlddate": "Datum",
+			"worldname": "Jméno",
+			"worldname_long": "Název světa",
+			"worldseed": "Semínko světa"
+		},
+		"tooltip": {
+			"craftingblock": "Kolonista zde bude pracovat jako {0}.",
+			"crate": "Kolonisté budou tento typ bloku často navštěvovat, aby zde vložili či si vzali předmět.",
+			"failsafe-points": "Zvětšuje kapacitu posvátných bodů o {0} (nesčítá se).",
+			"failsafe-threat": "Zvyšuje úroveň hrozby o {0}.",
+			"guard-ammo": "Využívá {0}.",
+			"guard-aoe": "Působí v oblasti {0} bloků.",
+			"guard-cooldown": "Každých {0} sekund.",
+			"guard-damage": "Uděluje {0} poškození.",
+			"guard-damage-ticks": "Uděluje {0} poškození během {1} sekund.",
+			"guard-general": "Kolonista zde bude pracovat jako strážce.",
+			"guard-range": "Dostřel {0} bloků.",
+			"guard-sleeptype-day": "Přes den spí.",
+			"guard-sleeptype-night": "Přes noc spí.",
+			"is-edible": "K jídlu jak pro kolonisty, tak pro tebe.",
+			"is-sanctified": "Obdržíš {0} posvátných bodů, když kolonisté sní toto jídlo.",
+			"lockbox-points": "Zvyšuje kapacitu bodů kolonie o {0}.",
+			"lockbox-threat": "Zvyšuje úrovně hrozby o {0}.",
+			"miner": "Nařídí kolonistovi, aby těžil blok kamene či jiné rudy pod ním.",
+			"npcshop": "Kolonisté navštíví koloniál nebo prapor pro vyzvednutí jejich denního jídla.",
+			"paintable": "Lze změnit pomocí : ",
+			"pointtrader": "Můžeš zde prodávat a nakupovat předměty za body kolonie.",
+			"provides-fertile": "Počítá se jako úrodná půda.",
+			"provides-fertile-fen": "Počítá se jako úrodná půda z bažin.",
+			"provides-fertile-heath": "Počítá se jako úrodná půda z vřesoviště.",
+			"requires-fen": "Vyžaduje úrodnou půdu z bažinu.",
+			"requires-fertile": "Vyžaduje úrodnou půdu.",
+			"requires-heath": "Vyžaduje úrodnou půdu z vřesoviště.",
+			"requires-water": "Musí být umístěno blízko vodního zdroje.",
+			"sanctifiedlockbox-points": "Zvyšuje kapacitu bodů kolonie o {0}.",
+			"sanctifiedlockbox-threat": "Způsobuje zvýšení úrovně hrozby o {0}.",
+			"statisticsboard": "Zkontroluj aktivitu tvé kolonie.",
+			"threatstatue-general": "Využívá úroveň hrozby z jiných základen na základnu, kde je umístěna a sama ji lehce také zvyšuje.",
+			"threatstatue-threatcaused": "Zvyšuje úroveň hrozby o extra {0}.",
+			"threatstatue-threatweight": "Zvyšuje váhu úrovně hrozby o {0}.",
+			"tool-always-usable": "Vždycky dostupné, nevyžaduje žádné předměty.",
+			"tool-durability": "{0} sekund použítí.",
+			"tool-general": "Nástroje jsou využívány kolonisty pro zrychlení výroby.",
+			"tool-multiplier": "{0}x výrobní rychlosti.",
+			"tool-percentage-left": "Zbývá %:",
+			"tool-seconds-left": "Zbývá sekund:",
+			"toolshop": "Kolonisté navštíví obchod s nářadím nebo prapor pro vyzvednutí nových nástrojů, když je potřebují.",
+			"trap-ammo": "Maximálně unese {0} {1}.",
+			"trap-cooldown": "Přebíjí {0} sekund.",
+			"trap-damage": "Uděluje {0} poškození.",
+			"trap-explosive-range": "Při aktivaci působí na oblast {0} bloků.",
+			"trap-filter-1000hp": "Aktivuje se pouze na monstrum s více než 1000 životy.",
+			"trap-filter-unslowed": "Aktivuje se pouze, pokud není monstrum již zpomalené.",
+			"trapfixer": "Nařídí kolonistovi, aby během dne doplnil pasti.",
+			"trap-freezes": "Deaktivuje spuštění na {0} sekund.",
+			"trap-friendly-fire": "Může způsobit poškození i jiným než monstrům.",
+			"trap-general": "Past čeká na aktivaci monstrem. Může být doplněna během dne pastičkářem.",
+			"trap-range": "Dosah {0} bloků.",
+			"trap-slows": "Zpomalí monstra {0} krát, jejich normální rychlosti.",
+			"trap-style-down": "Aktivuje se při monstru pod ní.",
+			"trap-style-front": "Aktivuje se při monstru před ní.",
+			"trap-style-up": "Aktivuje se při monstru nad ní."
+		},
+		"upgrades": {
+			"builder": {
+				"level": "{0} Bloků",
+				"main": "Velikost oblasti stavitele"
+			},
+			"colonistcapacity": {
+				"level": "{0} Kolonistů",
+				"main": "Kapacita kolonistů"
+			},
+			"digger": {
+				"level": "{0} Bloků",
+				"main": "Velikost oblasti kopáčů"
+			},
+			"health": {
+				"level": "Úroveň {0} Životů",
+				"main": "Životy"
+			},
+			"safezone": {
+				"level": "{0} Bloků",
+				"main": "Bezpečná oblast praporu"
+			}
+		}
+	},
+	"types": {
+		"alarmbell": "Poplašný zvon",
+		"alchemisttable": "Alchymistův stůl",
+		"alkanet": "Alkana",
+		"animalcarcass": "Mršina zvířete",
+		"architrave": "Architráv",
+		"artisttable": "Umělecký pracovní stůl",
+		"astrolabe": "Astroláb",
+		"banner": "Prapor",
+		"bannertool": "Nástroj praporu",
+		"barley": "Ječmen",
+		"bed": "Postel",
+		"berry": "Bobule",
+		"berrybush": "Semínko bobule",
+		"berrymeal": "Bobulové jídlo",
+		"blastfurnace": "Vysoká pec",
+		"bloomery": "Nízká pec",
+		"bookcase": "Prázdná knihovna",
+		"bookcase1": "Téměř prázdná knihovna",
+		"bookcase2": "Částečně prázdná knihovna",
+		"bookcasefilled": "Knihovna",
+		"bookofknowledge": "Kniha vědění",
+		"bow": "Luk",
+		"brassingot": "Mosazný ingot",
+		"brassparts": "Mosazné součástky",
+		"bread": "Chléb",
+		"breadmeal": "Chléb s džemem",
+		"bricks": "Cihly",
+		"bricksblack": "Černé cihly",
+		"bricksdarkred": "Temnočervené cihly",
+		"bricksdarkyellow": "Tmavožluté cihly",
+		"brickslight": "Světlé cihly",
+		"bricksred": "Červené cihly",
+		"bronzeingot": "Bronzový ingot",
+		"bronzelockbox": "Bronzová skříňka",
+		"bronzetools": "Bronzové nástroje",
+		"cabbage": "Zelí",
+		"caltrops": "Kaltropy",
+		"caltroptrap": "Kaltropová past",
+		"candle": "Svíčka",
+		"carddata": "Děrný štítek",
+		"cardempty": "Prázdný děrný štítek",
+		"charcoal": "Dřevěné uhlí",
+		"cherryblossom": "Květ třešně",
+		"chest": "Truhla",
+		"chestluxury": "Luxusní truhla",
+		"chestmaker": "Truhlářský stůl",
+		"chestprestige": "Prestižní truhla",
+		"chestresource": "Vědecká truhla",
+		"chickenmeal": "Kuřecí jídlo",
+		"chickenpoop": "Kuřecí exkrement",
+		"chickenraw": "Syrové kuře",
+		"clay": "Jíl",
+		"coalore": "Uhlí",
+		"cokes": "Koks",
+		"colonykit": "Balíček pro založení kolonie",
+		"commandtool": "Nástroj pro oblasti",
+		"compass": "Kompas",
+		"compostingbin": "Kompostér",
+		"constructionjob": "Konstrukce",
+		"cookedfish": "Vařená ryba",
+		"cookedmeat": "Vařené maso",
+		"copper": "Měď",
+		"copperanvil": "Měděná kovadlina",
+		"copperarrow": "Měděný šíp",
+		"copperingot": "Měděný ingot",
+		"copperlockbox": "Měděná skříňka",
+		"coppertools": "Měděné nástroje",
+		"corbel": "Krakorec",
+		"cotton": "Bavlna",
+		"cottonengine": "Kolovrátek",
+		"cottonfibre": "Bavlněná vlákna",
+		"crate": "Bedna",
+		"crossbow": "Kuše",
+		"crossbowbolt": "Kušní šipka",
+		"darkstone": "Blok temného kamene",
+		"dirt": "Hlína",
+		"dirtfen": "Hlína z bažin",
+		"dirtheath": "Hlína z vřesoviště",
+		"doorclosed": "Dveře",
+		"droppertrap": "Vystřelovací past",
+		"droppertrapammo": "Náboj do vystřelovací pasti",
+		"dyertable": "Barvičův stůl",
+		"earthenware": "Číše",
+		"elevator": "Stanice výtahu",
+		"elevatorhorizontal": "Železniční stanice",
+		"elevatorshaft": "Šachta výtahu",
+		"elevatorshafthorizontal": "kolejnice",
+		"engineerbench": "Inženýrský stůl",
+		"eyeglasses": "Brýle",
+		"failsafe": "Posvátný oltář",
+		"fence": "Plot",
+		"firepit": "Ohniště",
+		"firewood": "Dřevo na podpal",
+		"fisherman": "Rybářský prut",
+		"flax": "Len",
+		"flaxstage1": "Semínka lenu",
+		"fletcherbench": "Lukařův stůl",
+		"flowerboxitem": "Květinová krabice",
+		"furnace": "Huť",
+		"glassblower": "Sklářská pec",
+		"glasspiece": "Kus skla",
+		"glider": "Rogalo",
+		"glidersteel": "Ocelové rogalo",
+		"goldenshield": "Zlatý štít",
+		"goldenstatue": "Socha ohrožení",
+		"goldingot": "Zlatý ingot",
+		"goldjewellery": "Zlaté šperky",
+		"goldore": "Zlatá ruda",
+		"grassdry": "Tráva",
+		"grassfen": "Tráva z bažin",
+		"grassheath": "Tráva z vřesoviště",
+		"grassheathpurple": "Rostliny z vřesoviště",
+		"grassmax": "Tráva",
+		"grassmid": "Tráva",
+		"grasswet": "Tráva",
+		"grenadelauncher": "Granátomet",
+		"grenadelauncherammo": "Náboje do granátometu",
+		"grindstone": "Mlecí kámen",
+		"guardbowdayjob": "Denní lučišník",
+		"guardbownightjob": "Noční lučišník",
+		"guardcrossbowdayjob": "Denní kušiník",
+		"guardcrossbownightjob": "Noční kušiník",
+		"guardgrenadedayjob": "Denní granátometař",
+		"guardgrenadenightjob": "Noční granátometař",
+		"guardhandcannondayjob": "Denní bambitkář",
+		"guardhandcannonnightjob": "Noční bambitkář",
+		"guardmusketdayjob": "Denní mušketýr",
+		"guardmusketnightjob": "Noční mušketýr",
+		"guardpoison": "Jedař",
+		"guardslingerdayjob": "Denní práče",
+		"guardslingernightjob": "Noční práče",
+		"gunpowder": "Střelný prach",
+		"gunpowdertrap": "Past se střelným prachem",
+		"gunpowdertrapammo": "Náboj do pasti se střelným prachem",
+		"gunsmith": "Puškařův stůl",
+		"guntrap": "Projektilová past",
+		"guntrapammo": "Náboj do projektilové pasti",
+		"handcannon": "Bambitka",
+		"handcannonammo": "Náboj do bambitky",
+		"hemp": "Konopí",
+		"hempfibre": "Konopné vlákno",
+		"hollyhock": "Topolovka",
+		"ironbloom": "Železný květ",
+		"ironore": "Železná ruda",
+		"irontools": "Želené nástroje",
+		"ironwrought": "Tepané železo",
+		"jewellerbench": "Klenotníkův stůl",
+		"jobblockcrafter": "Stůl pracovního rekrutanta",
+		"jobblockcrafteradvanced": "Stůl pokročilého pracovního rekrutanta",
+		"kiln": "Sušící pec",
+		"lanternblue": "Modrá lucerna",
+		"lanterncyan": "Tyrkysová lucerna",
+		"lanterngreen": "Zelená lucerna",
+		"lanternitem": "Pouliční osvětlení",
+		"lanternorange": "Oranžová lucerna",
+		"lanternpink": "Růžová lucerna",
+		"lanternred": "Červená lucerna",
+		"lanternwhite": "Bílá lucerna",
+		"lanternyellow": "Lucerna",
+		"leadingot": "Olověný ingot",
+		"leadore": "Olověná ruda",
+		"leather": "Opracovaná kůže",
+		"leavesfallorange": "Oranžové Listí",
+		"leavesfallred": "Červené Listí",
+		"leavesfallyellow": "Žluté Listí",
+		"leavesgreendark": "Tmavé Listí",
+		"leavesgreenlight": "Světlé Listí",
+		"leavestaiga": "Listí tajgy",
+		"leavestemperate": "Listí mírných pásů",
+		"linen": "Látka",
+		"logtaiga": "Dřevo tajgy",
+		"logtemperate": "Dřevo mírných pásů",
+		"logwall": "Kulatinová zeď",
+		"luxurygarments": "Luxusní oděv",
+		"machinetools": "Strojové nástroje",
+		"manuscript": "Rukopis",
+		"merchanthub": "Obchodní stůl",
+		"metalgear": "Kovové součástky",
+		"metallathe": "Kovový soustruh",
+		"minerjob": "Horník",
+		"monocular": "Dalekohled",
+		"mouldingitem": "korunní římsa",
+		"movabletype": "Tiskařské součástky",
+		"mudbricks": "Nepálená cihla",
+		"musket": "Mušketa",
+		"musketammo": "Náboj do muškety",
+		"nitro": "Nitrocelulóza",
+		"notools": "Žádné nástroje",
+		"npcshop": "Koloniál",
+		"outpostbanner": "Prapor základny",
+		"paintblue": "Modrá barva",
+		"paintgreen": "Zelená barva",
+		"paintred": "Červená barva",
+		"paintstripped": "Odstraňovač nátěrů",
+		"paintwhite": "Bílá barva",
+		"paper": "Papír",
+		"papermakersmould": "Forma pro výrobu papíru",
+		"parchment": "Pergamen",
+		"pillar": "Pilíř",
+		"planks": "Prkna",
+		"planksblue": "Modrá prkna",
+		"planksgreen": "Zelená prkna",
+		"planksred": "Červená prkna",
+		"points": "Hroty",
+		"poisondart": "Otrávené šipky",
+		"potash": "Potaš",
+		"potempty": "Prázdná nádoba",
+		"potflour": "Nádoba s moukou",
+		"potterystation": "Hrnčířský kruh",
+		"potwater": "Nádoba s vodou",
+		"printingpress": "Tiskařský lis",
+		"projectiletrap": "Šípová past",
+		"projectiletrapammo": "Náboj do šípové pasti",
+		"quarterblockbrowndark": "Tmavě hnědý čtvrtblok",
+		"quarterblockbrownlight": "Světlehnědý čtvrtblok",
+		"quarterblockgrey": "Šedý čtvrtblok",
+		"railgate": "Železniční brána",
+		"railitem": "Kolejnice",
+		"rawfish": "Syrová ryba",
+		"rawmeat": "Syrové maso",
+		"researcherdesk": "Výzkumný stůl",
+		"rooftool": "Tašková střecha",
+		"rooftoolblue": "Modrá tašková střecha",
+		"rope": "Lano",
+		"ropebench": "Lanařův stůl",
+		"ropetrap": "Lanová past",
+		"ropetrapammo": "Náboj do lanové pasti",
+		"saltpeter": "Ledek",
+		"sanctifiedbreadmeal": "Posvátný chléb s džemem",
+		"sanctifiedchickenmeal": "Posvátné kuřecí jídlo",
+		"sanctifiedhouse": "Posvátná fara",
+		"sanctifiedporridge": "Posvátná hustá ovesná kaše",
+		"sanctifiertable": "Posvěcovací oltář",
+		"sand": "Písek",
+		"sapling": "Sazenice stromu",
+		"saplingcherry": "Sazenice třešně",
+		"saplingdark": "Tmavě zelená sazenice stromu",
+		"saplingfallorange": "Sazenice podzimního stromu",
+		"saplingfallred": "Červená sazenice stromu",
+		"saplingfallyellow": "Žlutá sazenice stromu",
+		"saplinglight": "Světle zelená sazenice stromu",
+		"saplingtaiga": "Sazenice stromu tajgy",
+		"saplingtemperate": "Zelená sazenice stromu",
+		"scientificnote": "Věděcká poznámka",
+		"scribedesk": "Písařův stůl",
+		"scrollofknowledge": "Svitek vědění",
+		"scrollshelf": "Prázdná police na svitky",
+		"scrollshelf1": "Téměř prázdná police na svitky",
+		"scrollshelf2": "Částečně prázdná police na svitky",
+		"scrollshelffilled": "Police na svitky",
+		"signitem": "Cedule",
+		"silicasand": "Křemičitý písek",
+		"skin": "Neopracovaná kůže",
+		"sling": "Prak",
+		"slingbullet": "Náboj do praku",
+		"snow": "Sníh",
+		"splittingstump": "Dělící pařez",
+		"statisticsboard": "Nástěnka statistik",
+		"steelingot": "Ocelový ingot",
+		"steellockbox": "Ocelová skříňka",
+		"steelparts": "Ocelové části",
+		"steeltools": "Ocelové nástroje",
+		"stoneblock": "Blok kamene",
+		"stonebricks": "Kamenné cihly",
+		"stonebricksblack": "Černé kamenné cihly",
+		"stonebricksbrown": "Hnědé kamenné cihly",
+		"stonebricksnew": "Kamenné cihly",
+		"stonebrickswhite": "Bílé kamenné cihly",
+		"stonemasonworkbench": "Kameníkův stůl",
+		"stonerubble": "Kamenná suť",
+		"stonestair": "Kamenné schodiště",
+		"stonetools": "Kamenné nástroje",
+		"stove": "Kamna",
+		"straw": "Sláma",
+		"sulfur": "Sulfur",
+		"tabletclay": "Hliněná tabulka",
+		"tabletwisdom": "Tabulka starodávné moudrosti",
+		"tabulator": "Štítkovací stůl",
+		"tailorshop": "Krejčířství",
+		"tannertable": "Koželuhův stůl",
+		"tin": "Cín",
+		"tinkerertable": "Kutilův stůl",
+		"toolshop": "Obchod s nářadím",
+		"torch": "Pochodeň",
+		"trader": "Obchodník",
+		"trapfixer": "Pastičkář",
+		"vialempty": "Prázdná lahvička",
+		"vialmineraloil": "Lahvička minerálního oleje",
+		"vialnitricacid": "Lahvička kyseliny dusičné",
+		"vialsulphuricacid": "Lahvička kyseliny sírové",
+		"water": "Voda",
+		"watergatherer": "Naběrač vody",
+		"waterpump": "Vodní pumpa",
+		"watersponge": "Archimédův šroub",
+		"wheat": "Pšenice",
+		"wheatmeal": "Ovesná kaše",
+		"wheatporridge": "Hustá ovesná kaše",
+		"wheatstage1": "Semínko pšenice",
+		"window": "Okno",
+		"wisteriaflower": "Květ Vistárie",
+		"wisteriajob": "Farmář Vistárie",
+		"wisteriaplant": "Vistárie",
+		"wisteriaplantempty": "Prázdná Vistárie",
+		"wolfsbane": "Oměj",
+		"woodfloor": "Dřevěná podlaha",
+		"woodstair": "Dřevěné schodiště",
+		"writerdesk": "Spisovatelův stůl",
+		"zinc": "Zinek"
+	},
+	"typeuses": {
+		"alarmbell": "Zvoní jako ďas, když přes něj přejde monstrum",
+		"alkanet": "V reálném životě zdroj červeného barviva",
+		"astrolabe": "Vybav se jím, abys viděl cestu k speciálním biomům.",
+		"berry": "Jednotlivá bobule. Nevyplatí se jíst!",
+		"berrybush": "Kolonisté tohle mohou využít pro snadné získání jídla",
+		"berrymeal": "Hromádka bobulí na přípravu delikatesy",
+		"bookcase": "Jsou vyprazdňovány výzkumníkem a automaticky se doplňují. Umístění 10 z nich pro každého výzkumníka zajišťuje dlouhodobou rovnováhu.",
+		"bookcase1": "Jsou vyprazdňovány výzkumníkem a automaticky se doplňují. Umístění 10 z nich pro každého výzkumníka zajišťuje dlouhodobou rovnováhu.",
+		"bookcase2": "Jsou vyprazdňovány výzkumníkem a automaticky se doplňují. Umístění 10 z nich pro každého výzkumníka zajišťuje dlouhodobou rovnováhu.",
+		"bookcasefilled": "Jsou vyprazdňovány výzkumníkem a automaticky se doplňují. Umístění 10 z nich pro každého výzkumníka zajišťuje dlouhodobou rovnováhu.",
+		"bow": "Strážci ho potřebují!",
+		"bread": "Suchý kus chleba bez jakékoliv pomazánky nebo náplně. Ble!",
+		"breadmeal": "Skvělý chléb s výtečným bobulovým džemem",
+		"bricks": "Je to Holandská hra koneckonců...",
+		"bronzeingot": "Bronz je stronk",
+		"charcoal": "Absorbuje kyanid",
+		"cherryblossom": "Nejrůžovější věc ve hře",
+		"clay": "Přál bych si aby ses toho mohl dotknout",
+		"coalore": "Upozornění: může způsobit změnu klimatu",
+		"compass": "Vybav se jím, abys viděl cestu ke koloniím a základnám",
+		"cookedfish": "Její plavací schopnosti byly dramaticky sníženy",
+		"copper": "Nepotřebuje být tavena. Jak obvyklé!",
+		"coppertools": "Nemůžeš nakrájet chleba bez nástrojů",
+		"crate": "Pro uložení všeho!",
+		"crossbow": "Menší bratr arbalisty",
+		"crossbowbolt": "Těžší, lepší, rychlejší, silnější",
+		"dirt": "Špinavá",
+		"failsafe": "Obranný mechanismus využívající posvátné body",
+		"firewood": "Základní palivo",
+		"flax": "Imperiální barva",
+		"flaxstage1": "Položte to na zem",
+		"furnace": "Používá dřevo na podpal jako palivo na výrobu bronzových ingotů a cihel",
+		"glider": "_MISSING_Places a glider launcher; Enter one using <style=Player/FireSecondary> and navigate by aiming while holding forward",
+		"glidersteel": "Jako klasické rogalo, ale tohle tě donese mnohem výš.",
+		"goldingot": "Jednou byl použit jako bankovka",
+		"goldore": "Neztrať to",
+		"grindstone": "Používá se pro rozemletí pšenice na mouku",
+		"gunpowder": "Zacházejte s tím opatrně!",
+		"hollyhock": "Projímadlo v realitě. Ne ve hře. Zatím...",
+		"ironore": "Vykopáno s železným krumpáčem, který je z tohoto vyroben",
+		"ironwrought": "Tepané neznamená z tepu srdce'",
+		"kiln": "_MISSING_Turns firewood into charcoal",
+		"lanterncyan": "Budoucnost je teď",
+		"lanterngreen": "Dělá vás ekologičtějšími",
+		"lanternorange": "Extra útulno",
+		"lanternred": "V Amsterdamu jsou taky populární",
+		"lanternyellow": "Drahá pochodeň",
+		"leadore": "Najdeš v bažinách",
+		"leavestaiga": "Cítím se jako na Vánoce",
+		"leavestemperate": "Zkus do nich skočit z mrakodrapu",
+		"linen": "Spodní prádlo je taky z látky",
+		"logtaiga": "Dřevo taigy",
+		"logtemperate": "Jako normální dřevo, ale jiné",
+		"monocular": "Vybav se jím a sleduj svět z větší blízky",
+		"npcshop": "Kolonisté si do 'koloniálu' nebo k praporu přijdou pro své denní jídlo",
+		"planks": "Nyní čtyřnásobně objemnější než dřevo!",
+		"printingpress": "Respektuj svobodu tisku",
+		"railgate": "Umožňuje jízdu po železnici a zároveň blokuje průchod pěšky",
+		"rawfish": "#bio #organic #fresh",
+		"researcherdesk": "Výzkumníci potřebují pracovat v blízkosti knihoven, aby mohli hledat informace pro jejich výzkum!",
+		"sand": "S hady se moc dobře nemíchá",
+		"saplingfallorange": "Budoucí oranžový strom",
+		"saplingtaiga": "O trochu tmavší strom",
+		"scribedesk": "Písař potřebuje v blízkosti 10 polic aby v nich mohl hledat informace!",
+		"scrollshelf": "Jsou vyprazdňovány písařem a automaticky se doplňují. Umístění 10 z nich pro každého písaře zajišťuje dlouhodobou rovnováhu.",
+		"scrollshelf1": "Jsou vyprazdňovány písařem a automaticky se doplňují. Umístění 10 z nich pro každého písaře zajišťuje dlouhodobou rovnováhu.",
+		"scrollshelf2": "Jsou vyprazdňovány písařem a automaticky se doplňují. Umístění 10 z nich pro každého písaře zajišťuje dlouhodobou rovnováhu.",
+		"scrollshelffilled": "Jsou vyprazdňnovány písařem a automaticky se doplňují. Umístění 10 z nich pro každého písaře zajišťuje dlouhodobou rovnováhu.",
+		"silicasand": "Najdeš pod pískem ve vřesovišti",
+		"sling": "Bacha, Goliáši",
+		"slingbullet": "Zatím jen malý kamínek",
+		"snow": "Tajuplný",
+		"splittingstump": "Rychlejší cesta jak vyrobit dřevo na podpal",
+		"stonemasonworkbench": "Padesát odstínů cihel",
+		"stove": "Naplňuje okolí svůdnými vůněmi jídla",
+		"sulfur": "Najdeš hluboko pod zemí ve vřesovišti",
+		"tailorshop": "Oděvy pro všechny!",
+		"tin": "Jen trošku toxický",
+		"torch": "Budiž světlo!",
+		"trader": "Obchoduje. Překvapivě.",
+		"water": "ZASTAV TO NEŽ TI TO ZATOPÍ DŮL!!!",
+		"waterpump": "Jako normální vodní zdroj, jen trochu pomalejší.",
+		"watersponge": "Odstraňuje vodu ve své lokální oblasti hluboce realistickým způsobem",
+		"wheat": "Kolonista s mlecím kamenem přemění pšenici na mouku.",
+		"wheatstage1": "Budoucí chleba",
+		"wisteriajob": "Farmář Vistárie potřebuje v okolí 10 vistárií. Tyto rostliny mohou být pěstovány pouze v bažinách.",
+		"wisteriaplant": "Jsou vyprazdňovány farmářem Vistárie a automaticky se doplňují. Umístění 10 z nich pro každého farmáře Vistárie zajišťuje dlouhodobou rovnováhu.",
+		"wisteriaplantempty": "Jsou vyprazdňovány farmářem Vistárie a automaticky se doplňují. Umístění 10 z nich pro každého farmáře Vistárie zajišťuje dlouhodobou rovnováhu.",
+		"wolfsbane": "Předchází útoku vlků na tvoji kolonii.",
+		"writerdesk": "Tady vznikají ty velké romány.",
+		"zinc": "Najdeš ho přímo pod mamutím stromem."
+	}
+}
